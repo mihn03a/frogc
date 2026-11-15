@@ -1,0 +1,8 @@
+Pune aici fisierele tale audio (format .ogg, .mp3 sau .wav):
+
+  intro.mp3    -> se aude o data, cand porneste jocul (meniul principal)
+  menu.mp3     -> muzica de fundal din meniu (se aude incet, in bucla)
+  victory.mp3  -> se aude in scena finala de victorie
+
+Numele trebuie sa fie exact "intro" si "victory". Daca un fisier lipseste,
+jocul foloseste sunetele lui generate automat.

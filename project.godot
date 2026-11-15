@@ -1,0 +1,34 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="FROGC"
+config/description="Bounce Back - 3D arcade frog-plane game"
+run/main_scene="res://scenes/main_menu/main_menu.tscn"
+config/features=PackedStringArray("4.7", "Mobile")
+
+[autoload]
+
+GameState="*res://scripts/core/game_state.gd"
+AudioManager="*res://scripts/core/audio_manager.gd"
+FX="*res://scripts/core/fx.gd"
+Net="*res://scripts/core/net.gd"
+
+[display]
+
+window/size/viewport_width=1600
+window/size/viewport_height=900
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+
+[rendering]
+
+renderer/rendering_method="mobile"
